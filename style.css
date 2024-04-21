@@ -1,0 +1,47 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: serif;
+}
+.lost,ul,.found,.lost-content,.found-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lost-content,.found-content{
+    flex-direction: column;
+}
+.lost{
+    background-image: linear-gradient(to bottom,rgb(179,179,179),rgb(179,179,0));
+}
+.found {
+    background-image: linear-gradient(to bottom,rgb(179,124,124),rgb(179,230,0));
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    width: 50%;
+}
+li{
+    margin-right: 2rem;
+}
+
+
+nav {
+    background-color: rgb(255, 150, 0);
+    height: 10vh;
+}
+
+
+.lost {
+    height: 90vh;
+}
+
+.found {
+    height: 100vh;
+}
